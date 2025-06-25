@@ -45,5 +45,3 @@ Then open `http://localhost:8000` in your browser.
 * The app never sends full passwords.
 * All hashing happens client-side before contacting the backend.
 * The backend only receives the first 5 chars of SHA1 hash.
-
----
