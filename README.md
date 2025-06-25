@@ -10,7 +10,7 @@
 
 ---
 
-## 🔗 Backend Integration
+##  Backend Integration
 
 Update the `fetch()` URL in your `index.html` to point to your Render backend:
 
@@ -26,7 +26,7 @@ Make sure CORS is enabled on the Flask backend.
 
 ---
 
-## 🧪 Run Locally
+##  Run Locally
 
 You can test the frontend locally using a browser or a static server:
 
@@ -39,12 +39,10 @@ Then open `http://localhost:8000` in your browser.
 
 ---
 
-## 🛡 Security Note
+##  Security Note
 
 * The app never sends full passwords.
 * All hashing happens client-side before contacting the backend.
 * The backend only receives the first 5 chars of SHA1 hash.
 
 ---
-
-## 📄 License
